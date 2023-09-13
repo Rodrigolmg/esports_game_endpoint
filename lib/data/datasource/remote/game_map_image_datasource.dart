@@ -14,7 +14,7 @@ class GameMapImageDataSourceImpl implements GameMapImageDataSource {
 
   @override
   Future<Uint8List> getGameMapImage(int? mapId) async {
-    Response response = await dio.getMethod(UrlPath.lineUpsPath(mapId));
+    Response response = await dio.getMethod(UrlPath.gameMapImagePath(mapId));
     if(response.statusCode != null && response.statusCode == 200){
       if((response.data as String).isEmpty){
         throw ServerException(statusCode: 204);
