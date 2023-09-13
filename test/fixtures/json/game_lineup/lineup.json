@@ -1,0 +1,20 @@
+{
+  "adr": 51.8,
+  "assists": 0,
+  "deaths": 18,
+  "firstKillsDiff": 1,
+  "flashAssists": 0,
+  "headshots": 8,
+  "kast": 40,
+  "kdDiff": -9,
+  "kills": 9,
+  "player": {
+    "firstName": "Mariusz ",
+    "id": 1069913,
+    "lastName": "Jarząb ",
+    "name": "SKRZYNKA",
+    "shortName": "SKRZYNKA",
+    "slug": "skrzynka",
+    "userCount": 0
+  }
+}
