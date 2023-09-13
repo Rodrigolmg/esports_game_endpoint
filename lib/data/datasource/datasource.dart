@@ -16,6 +16,7 @@ part 'datasource_box_name.dart';
 // remote
 part 'remote/lineup_datasource.dart';
 part 'remote/game_map_image_datasource.dart';
+part 'remote/character_image_datasource.dart';
 
 // local
 part 'local/lineup_local_datasource.dart';

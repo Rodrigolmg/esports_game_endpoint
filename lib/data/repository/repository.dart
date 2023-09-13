@@ -11,3 +11,4 @@ import 'package:esports_game_endpoint/domain/repository/repository_contract.dart
 
 part 'lineup_repository_impl.dart';
 part 'game_map_image_repository_impl.dart';
+part 'character_image_repository_impl.dart';

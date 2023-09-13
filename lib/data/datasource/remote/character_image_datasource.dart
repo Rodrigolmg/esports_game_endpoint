@@ -1,20 +1,20 @@
 part of datasource;
 
-abstract class GameMapImageDataSource {
-  Future<Uint8List> getGameMapImage(int? mapId);
+abstract class CharacterImageDataSource {
+  Future<Uint8List> getCharacterImage(int? characterId);
 }
 
-class GameMapImageDataSourceImpl implements GameMapImageDataSource {
+class CharacterImageDataSourceImpl implements CharacterImageDataSource {
 
   final DioMethod dio;
 
-  const GameMapImageDataSourceImpl({
+  const CharacterImageDataSourceImpl({
     required this.dio,
   });
 
   @override
-  Future<Uint8List> getGameMapImage(int? mapId) async {
-    Response response = await dio.getMethod(UrlPath.gameMapImagePath(mapId));
+  Future<Uint8List> getCharacterImage(int? characterId) async {
+    Response response = await dio.getMethod(UrlPath.characterImagePath(characterId));
     if(response.statusCode != null && response.statusCode == 200){
       if((response.data as String).isEmpty){
         throw ServerException(statusCode: 204);
