@@ -1,6 +1,6 @@
 part of usecase;
 
-class GetLineupsUseCase implements UseCase<Map<String, List<LineUpEntity>>, int?> {
+class GetLineupsUseCase implements UseCase<Map<String, List<LineupEntity>>, int?> {
 
   final LineupRepository repository;
 
@@ -9,7 +9,7 @@ class GetLineupsUseCase implements UseCase<Map<String, List<LineUpEntity>>, int?
   });
 
   @override
-  Future<Either<Failure, Map<String, List<LineUpEntity>>>> call([int? gameId]) {
+  Future<Either<Failure, Map<String, List<LineupEntity>>>> call([int? gameId]) {
     return repository.getLineups(gameId);
   }
 

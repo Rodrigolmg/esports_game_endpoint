@@ -1,7 +1,7 @@
 part of entity;
 
 @HiveType(typeId: 1)
-class LineUpEntity extends HiveObject {
+class LineupEntity extends HiveObject {
 
   @HiveField(0)
   final double? adr;
@@ -33,7 +33,7 @@ class LineUpEntity extends HiveObject {
   @HiveField(9)
   final PlayerEntity? player;
 
-  LineUpEntity({
+  LineupEntity({
     this.adr,
     this.assists,
     this.deaths,

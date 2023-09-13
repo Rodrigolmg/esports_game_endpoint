@@ -11,7 +11,7 @@ void main(){
   LineupModel lineupModel = LineupModel();
 
   test('Should be a subclass of LineupEntity',
-    () => expect(lineupModel, isA<LineUpEntity>())
+    () => expect(lineupModel, isA<LineupEntity>())
   );
 
   group('fromJson', () {

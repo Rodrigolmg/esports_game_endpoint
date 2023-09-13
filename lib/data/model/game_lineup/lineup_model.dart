@@ -1,6 +1,6 @@
 part of model;
 
-class LineupModel extends LineUpEntity {
+class LineupModel extends LineupEntity {
 
   LineupModel({
     double? adr,

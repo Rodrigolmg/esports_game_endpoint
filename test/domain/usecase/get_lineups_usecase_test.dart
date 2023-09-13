@@ -21,14 +21,14 @@ void main(){
 
   const int tGameId = 1;
 
-  Map<String, List<LineUpEntity>> lineups = {
+  Map<String, List<LineupEntity>> lineups = {
     'awayTeamPlayers': [
-      LineUpEntity(kills: 5),
-      LineUpEntity(kills: 15),
+      LineupEntity(kills: 5),
+      LineupEntity(kills: 15),
     ],
     'homeTeamPlayers': [
-      LineUpEntity(kills: 22),
-      LineUpEntity(kills: 18),
+      LineupEntity(kills: 22),
+      LineupEntity(kills: 18),
     ]
   };
 
