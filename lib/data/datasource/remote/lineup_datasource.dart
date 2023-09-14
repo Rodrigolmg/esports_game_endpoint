@@ -15,7 +15,6 @@ class LineupDataSourceImpl implements LineupDataSource {
   @override
   Future<Map<String, List<LineupEntity>>> getLineups(int? gameId) async {
     Response response = await dio.getMethod(UrlPath.lineUpsPath(gameId));
-    Map<String, List<LineupModel>>? lineup;
 
     if(response.statusCode != null && response.statusCode == 200) {
       if((response.data as Map<String, dynamic>).isEmpty){
