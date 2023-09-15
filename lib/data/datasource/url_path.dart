@@ -6,4 +6,5 @@ class UrlPath {
   static String gameMapImagePath(int? mapId) => 'map/$mapId/image';
   static String characterImagePath(int? characterId) => 'character/$characterId/image';
   static String gameStatisticsPath(int? gameId) => 'game/$gameId/statistics';
+  static String gameBansPath(int? gameId) => 'game/$gameId/bans';
 }
