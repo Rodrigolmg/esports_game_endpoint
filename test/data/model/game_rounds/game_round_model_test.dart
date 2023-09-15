@@ -7,19 +7,20 @@ import 'package:flutter_test/flutter_test.dart';
 import '../../../fixtures/fixture_reader.dart';
 import '../../../fixtures/json_file_name.dart';
 
-void main() {
-  TimeRoundModel timeRoundModel = TimeRoundModel();
+void main(){
+  GameRoundModel gameRoundModel = GameRoundModel();
 
-  test('Should be a subclass of TimeRoundEntity',
-    () => expect(timeRoundModel, isA<TimeRoundEntity>())
+  test('Should be a subclass of GameRoundEntity',
+      () => expect(gameRoundModel, isA<GameRoundEntity>())
   );
 
   group('fromJson', () {
 
     test('Should return a TimeRoundModel from a JSON', () async {
-      final Map<String, dynamic> json = jsonDecode(readFixture(timeRoundJson));
-      final result = TimeRoundModel.fromJson(json);
-      expect(result, isA<TimeRoundModel>());
+      final Map<String, dynamic> json = jsonDecode(readFixture(gameRoundJson));
+      final result = GameRoundModel.fromJson(json);
+      expect(result, isA<GameRoundModel>());
     });
   });
+
 }

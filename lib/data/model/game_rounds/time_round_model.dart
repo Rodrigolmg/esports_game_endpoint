@@ -6,7 +6,11 @@ class TimeRoundModel extends TimeRoundEntity {
     int? homeTeamSide,
     int? outcome,
     int? winnerCode,
-  });
+  }) : super(
+    homeTeamSide: homeTeamSide,
+    outcome: outcome,
+    winnerCode: winnerCode
+  );
 
   factory TimeRoundModel.fromJson(Map<String, dynamic> json) {
     TimeRoundModel timeRoundModel = TimeRoundModel(

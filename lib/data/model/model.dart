@@ -7,3 +7,4 @@ part 'game_lineup/player_model.dart';
 part 'game_statistics/game_statistics_model.dart';
 part 'game_ban/game_ban_model.dart';
 part 'game_rounds/time_round_model.dart';
+part 'game_rounds/game_round_model.dart';
