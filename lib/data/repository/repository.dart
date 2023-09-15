@@ -12,3 +12,4 @@ part 'lineup_repository_impl.dart';
 part 'game_map_image_repository_impl.dart';
 part 'character_image_repository_impl.dart';
 part 'game_statistics_repository_impl.dart';
+part 'game_ban_repository_impl.dart';
