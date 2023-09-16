@@ -18,8 +18,10 @@ part 'remote/game_map_image_datasource.dart';
 part 'remote/character_image_datasource.dart';
 part 'remote/game_statistics_datasource.dart';
 part 'remote/game_ban_datasource.dart';
+part 'remote/game_round_datasource.dart';
 
 // local
 part 'local/lineup_local_datasource.dart';
 part 'local/game_statistics_local_datasource.dart';
 part 'local/game_ban_local_datasource.dart';
+part 'local/game_round_local_datasource.dart';
