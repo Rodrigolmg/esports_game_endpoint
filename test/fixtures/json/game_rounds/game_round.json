@@ -1,0 +1,142 @@
+{
+  "normaltimeRounds": [
+    {
+      "homeTeamSide": 4,
+      "outcome": 1,
+      "winnerCode": 2
+    },
+    {
+      "homeTeamSide": 4,
+      "outcome": 2,
+      "winnerCode": 1
+    },
+    {
+      "homeTeamSide": 4,
+      "outcome": 0,
+      "winnerCode": 2
+    },
+    {
+      "homeTeamSide": 4,
+      "outcome": 0,
+      "winnerCode": 2
+    },
+    {
+      "homeTeamSide": 4,
+      "outcome": 0,
+      "winnerCode": 2
+    },
+    {
+      "homeTeamSide": 4,
+      "outcome": 0,
+      "winnerCode": 1
+    },
+    {
+      "homeTeamSide": 4,
+      "outcome": 2,
+      "winnerCode": 1
+    },
+    {
+      "homeTeamSide": 4,
+      "outcome": 2,
+      "winnerCode": 1
+    },
+    {
+      "homeTeamSide": 4,
+      "outcome": 0,
+      "winnerCode": 1
+    },
+    {
+      "homeTeamSide": 4,
+      "outcome": 0,
+      "winnerCode": 2
+    },
+    {
+      "homeTeamSide": 4,
+      "outcome": 2,
+      "winnerCode": 1
+    },
+    {
+      "homeTeamSide": 4,
+      "outcome": 2,
+      "winnerCode": 1
+    },
+    {
+      "homeTeamSide": 4,
+      "outcome": 0,
+      "winnerCode": 2
+    },
+    {
+      "homeTeamSide": 4,
+      "outcome": 1,
+      "winnerCode": 2
+    },
+    {
+      "homeTeamSide": 4,
+      "outcome": 0,
+      "winnerCode": 2
+    },
+    {
+      "homeTeamSide": 5,
+      "outcome": 0,
+      "winnerCode": 2
+    },
+    {
+      "homeTeamSide": 5,
+      "outcome": 0,
+      "winnerCode": 2
+    },
+    {
+      "homeTeamSide": 5,
+      "outcome": 3,
+      "winnerCode": 1
+    },
+    {
+      "homeTeamSide": 5,
+      "outcome": 0,
+      "winnerCode": 1
+    },
+    {
+      "homeTeamSide": 5,
+      "outcome": 0,
+      "winnerCode": 1
+    },
+    {
+      "homeTeamSide": 5,
+      "outcome": 0,
+      "winnerCode": 1
+    },
+    {
+      "homeTeamSide": 5,
+      "outcome": 0,
+      "winnerCode": 1
+    },
+    {
+      "homeTeamSide": 5,
+      "outcome": 0,
+      "winnerCode": 1
+    },
+    {
+      "homeTeamSide": 5,
+      "outcome": 1,
+      "winnerCode": 1
+    },
+    {
+      "homeTeamSide": 5,
+      "outcome": 0,
+      "winnerCode": 2
+    },
+    {
+      "homeTeamSide": 5,
+      "outcome": 0,
+      "winnerCode": 1
+    },
+    {
+      "homeTeamSide": 5,
+      "outcome": 0,
+      "winnerCode": 1
+    }
+  ],
+  "overtimeChunkSize": null,
+  "overtimeRounds": null,
+  "roundsInAHalf": 15
+}
